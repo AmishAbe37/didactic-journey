@@ -1,0 +1,99 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Home Page Styles */
+#home {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Project Page Styles */
+#project {
+    margin: 20px;
+}
+
+/* Main Gallery Page Styles */
+#main-gallery {
+    margin: 20px;
+}
+
+#search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* About Page Styles */
+#about {
+    margin: 20px;
+}
+
+/* Contact Page Styles */
+#contact {
+    margin: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type='text'], form textarea, form input[type='email'], form input[type='submit'] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form input[type='submit'] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type='submit']:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #search-box {
+        width: 90%;
+    }
+}
